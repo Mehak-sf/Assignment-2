@@ -1,0 +1,48 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th,
+  td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .edit-btn,
+  .delete-btn {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: #0077cc;
+    text-decoration: underline;
+  }
+  
+  .save-btn,
+  .cancel-btn {
+    cursor: pointer;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+  }
+  
+  .save-btn:hover,
+  .cancel-btn:hover {
+    background-color: #005799;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
